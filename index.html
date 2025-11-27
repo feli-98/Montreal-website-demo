@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Montreal Companies Ltd</title>
   
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
   <link rel="stylesheet" href="styles.css"/>
-  </head>
+</head>
 <body>
   <header>
     <nav>
@@ -47,30 +50,68 @@
     </div>
   </section>
 
+  <!-- ✅ Products & Services Section with hover zoom images -->
   <section id="services" class="services">
     <div class="container">
       <h2 class="fade-in">Our Products & Services</h2>
       <div class="service-grid">
+        
         <div class="service slide-left">
-          <h3>Luxury Beddings</h3>
+          <img src="images/bedding1.jpg" alt="Luxury Bedding - Duvet" />
+          <img src="images/bedding2.jpg" alt="Luxury Bedding - Blanket" />
+          <h3>Luxury Bedding</h3>
           <p>Duvet sets, bedsheets, pillowcases, throws; crafted for elegance and comfort.</p>
         </div>
+
         <div class="service fade-in">
+          <img src="images/design1.jpg" alt="Interior Design - 3 tier table" />
+          <img src="images/design2.jpg" alt="Interior Design - Table linen" />
           <h3>Interior Design Consultation</h3>
           <p>Expert advice to transform your space into a stylish sanctuary.</p>
         </div>
+
         <div class="service slide-right">
-          <h3>Curtains & Window Sheers</h3>
-          <p>Custom designs to elevate your windows with grace and privacy.</p>
+          <img src="images/travel1.jpg" alt="Travel Accessories - Suitcase" />
+          <img src="images/travel2.jpg" alt="Travel Accessories - Travel Pillow" />
+          <h3>Travel Accessories</h3>
+          <p>Unbreakable suitcases, cozy travel pillows and premium travel mugs for stylish, effortless journeys.</p>
         </div>
+
         <div class="service slide-left">
-          <h3>Decorative Accessories</h3>
-          <p>Cushions, throws and bespoke fabric designs to complete your look.</p>
+          <img src="images/towels1.jpg" alt="Prestige Towels" />
+          <img src="images/toiletries2.jpg" alt="Bathmats" />
+          <h3>Towels & Toiletries</h3>
+          <p>Prestige towels, beach towels, kitchen towels and magic mops, made for softness, freshness and ease.</p>
         </div>
+
         <div class="service fade-in">
-          <h3>Bedroom Makeovers</h3>
-          <p>Full transformations tailored to your taste and comfort needs.</p>
+          <img src="images/appliances1.jpg" alt="Room Heater" />
+          <img src="images/appliances2.jpg" alt="Dry Iron" />
+          <h3>Home Appliances</h3>
+          <p>Room heaters, dry irons and TV stands that combine comfort, efficiency and modern design.</p>
         </div>
+
+        <div class="service slide-right">
+          <img src="images/kitchen1.jpg" alt="3pc Dinner Set" />
+          <img src="images/kitchen2.jpg" alt="Cookware" />
+          <h3>Crockery & Kitchenware</h3>
+          <p>Dinner sets, non-stick sufurias, cookware, knife sets and tablecloths crafted for elegant, everyday dining.</p>
+        </div>
+
+        <div class="service slide-left">
+          <img src="images/bedroom1.jpg" alt="Automatic Inflatable Mattress" />
+          <img src="images/bedroom2.jpg" alt="Sliding-Rail Mosquito Net" />
+          <h3>Bedroom Essentials</h3>
+          <p>Automatic inflatable mattresses, sliding-rail mosquito nets, hotel-quality bed runners and premium mattress covers designed for comfort, convenience and restful living.</p>
+        </div>
+
+        <div class="service fade-in">
+          <img src="images/holiday1.jpg" alt="Festive Christmas Decor" />
+          <img src="images/holiday2.jpg" alt="Seasonal Essentials" />
+          <h3>Holiday Specials</h3>
+          <p>Festive Christmas decor and seasonal essentials curated to bring warmth, joy and holiday elegance into every home.</p>
+        </div>
+
       </div>
     </div>
   </section>
@@ -84,10 +125,21 @@
         📍Kamukunji – Jubilee Complex, Mezzanine, Shop M22<br/>
         📅 Mon–Fri: 8:00 a.m – 6:00 p.m | Sat: 9:00 a.m – 5:00 p.m<br/>
         ❌ Sun & Public Holidays: Closed<br/>
-        <span class="social-links">
-          <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">TikTok</a>
-        </span>
       </p>
+
+      <!-- Social Media Icons in Contact Section -->
+      <div class="social-icons contact-icons">
+        <a href="https://facebook.com/montrealcompanies" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/montreal_companies" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://tiktok.com/@montrealcompanies" target="_blank" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+
       <form id="contact-form">
         <input type="text" placeholder="Your Name" required/>
         <input type="email" placeholder="Your Email" required/>
@@ -99,8 +151,21 @@
 
   <footer>
     <p>&copy; 2025. Montreal Companies Ltd. All rights reserved. Built by Felistus.</p>
+    
+    <!-- Social Media Icons in Footer -->
+    <div class="social-icons">
+      <a href="https://facebook.com/montrealcompanies" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://instagram.com/montreal_companies" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/@montrealcompanies" target="_blank" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+    </div>
   </footer>
   
   <script defer src="script.js"></script>
-  </body>
+</body>
 </html>
