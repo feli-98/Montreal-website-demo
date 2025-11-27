@@ -1,4 +1,4 @@
-Montreal Companies Ltd - Website
+**Montreal Companies Ltd - Website**
 
 This is a single-page, fully responsive portfolio website for Montreal Companies Ltd, a bedding and interior design store. The project is built from scratch using HTML, CSS, and modern JavaScript.
 
@@ -35,9 +35,10 @@ It is designed to be elegant, professional, and interactive, showcasing the comp
 --Mobile menu toggle (and "close on click")
 --Scroll-triggered animations (Intersection Observer) --Contact form submission alert
 
---
+---
 
 🌐Live Website
+
 https://feli-98.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment/ 
 
 ---
