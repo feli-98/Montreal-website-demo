@@ -39,7 +39,7 @@ It is designed to be elegant, professional, and interactive, showcasing the comp
 
 🌐Live Website
 
-https://feli-98.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment/ 
+http://127.0.0.1:5500/index.html
 
 ---
 
